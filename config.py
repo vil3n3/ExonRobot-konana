@@ -16,7 +16,7 @@ class Config(object):
     OWNER_ID = int(getenv("OWNER_ID", 5938660179))
     OWNER_USERNAME = getenv("OWNER_USERNAME", "@Call_me_ayano")
     SUPPORT_CHAT = getenv("SUPPORT_CHAT", "beerus_support_chat")
-    LOGGER_ID = int(getenv("LOGGER_ID", "-1001819078701"))
+    LOGGER_ID = int(getenv("LOGGER_ID", "-1002034266126"))
     MONGO_URI = getenv(
         "MONGO_DB_URI",
         "mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority",

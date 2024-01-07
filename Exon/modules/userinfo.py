@@ -518,7 +518,7 @@ def stats(update, context):
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
             + "\n\n[⍙ ɢɪᴛʜᴜʙ](https://github.com/DSS18T/ExonRobot-konana) | ⍚\n\n "
-            + "╘══「 by [ᴀʙɪsʜɴᴏɪ](https://github.com/DSS18T) 」\n",
+            + "╘══「 by [𝑨𝒚𝒂𝒏𝒐](https://github.com/DSS18T) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(kb),
             disable_web_page_preview=True,
